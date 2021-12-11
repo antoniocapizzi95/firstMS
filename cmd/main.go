@@ -17,7 +17,7 @@ import (
 )
 
 func main() {
-
+	fmt.Println("Starting first ms")
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatal("Error loading .env file")
